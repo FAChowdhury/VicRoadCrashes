@@ -1,0 +1,66 @@
+
+Call:
+glm(formula = fatal ~ SEX + AGE + HELMET_BELT_WORN + VEHICLE_TYPE + 
+    TOTAL_NO_OCCUPANTS + ACCIDENTTIME + ACCIDENT_TYPE + LIGHT_CONDITION + 
+    ROAD_GEOMETRY + SPEED_ZONE + SURFACE_COND + ATMOSPH_COND, 
+    family = "binomial", data = train.down)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.1638  -0.8413   0.0619   0.8910   2.3780  
+
+Coefficients:
+                                                 Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                    -1.972e+00  3.249e-01  -6.070 1.28e-09 ***
+SEXM                                            4.727e-01  7.200e-02   6.565 5.19e-11 ***
+SEXU                                           -5.456e-01  9.510e-01  -0.574 0.566149    
+AGE                                             1.006e-02  1.854e-03   5.424 5.81e-08 ***
+HELMET_BELT_WORNSeatbelt not worn               1.504e+00  1.992e-01   7.551 4.33e-14 ***
+HELMET_BELT_WORNSeatbelt worn                   7.526e-02  7.609e-02   0.989 0.322645    
+VEHICLE_TYPEHeavy Vehicle (Rigid) > 4.5 Tonnes  1.437e+00  2.031e-01   7.075 1.50e-12 ***
+VEHICLE_TYPEOther                               8.656e-01  1.731e-01   5.001 5.71e-07 ***
+VEHICLE_TYPEPanel Van                           2.226e-01  2.041e-01   1.091 0.275345    
+VEHICLE_TYPEPrime Mover - Single Trailer        1.186e+00  2.738e-01   4.331 1.48e-05 ***
+VEHICLE_TYPEStation Wagon                       2.938e-02  8.489e-02   0.346 0.729281    
+VEHICLE_TYPETaxi                               -1.896e-01  2.950e-01  -0.642 0.520568    
+VEHICLE_TYPEUtility                             2.659e-01  1.075e-01   2.473 0.013387 *  
+TOTAL_NO_OCCUPANTS                              1.926e-01  3.623e-02   5.316 1.06e-07 ***
+ACCIDENTTIME                                   -5.650e-06  1.662e-06  -3.400 0.000674 ***
+ACCIDENT_TYPEcollision with some other object  -8.601e-01  5.513e-01  -1.560 0.118762    
+ACCIDENT_TYPECollision with vehicle            -5.626e-01  9.447e-02  -5.955 2.60e-09 ***
+ACCIDENT_TYPEFall from or in moving vehicle    -6.974e-02  5.982e-01  -0.117 0.907182    
+ACCIDENT_TYPENo collision and no object struck -4.862e-01  5.002e-01  -0.972 0.331067    
+ACCIDENT_TYPEStruck animal                     -1.733e+00  4.987e-01  -3.476 0.000509 ***
+ACCIDENT_TYPEStruck Pedestrian                  1.171e+00  1.407e-01   8.317  < 2e-16 ***
+ACCIDENT_TYPEVehicle overturned (no collision) -9.629e-01  2.347e-01  -4.102 4.10e-05 ***
+LIGHT_CONDITIONDark Street lights off           1.352e-01  4.951e-01   0.273 0.784792    
+LIGHT_CONDITIONDark Street lights on           -2.816e-01  1.455e-01  -1.936 0.052923 .  
+LIGHT_CONDITIONDark Street lights unknown      -4.250e-01  4.168e-01  -1.020 0.307875    
+LIGHT_CONDITIONDay                             -7.927e-01  1.285e-01  -6.171 6.80e-10 ***
+LIGHT_CONDITIONDusk/Dawn                       -9.679e-01  1.672e-01  -5.788 7.11e-09 ***
+ROAD_GEOMETRYNot at intersection                4.779e-01  8.644e-02   5.528 3.24e-08 ***
+ROAD_GEOMETRYOther                             -3.635e-01  2.436e-01  -1.492 0.135600    
+ROAD_GEOMETRYT intersection                     3.426e-01  9.842e-02   3.481 0.000499 ***
+SPEED_ZONE050                                   5.760e-01  2.562e-01   2.248 0.024545 *  
+SPEED_ZONE060                                   1.040e+00  2.458e-01   4.229 2.35e-05 ***
+SPEED_ZONE070                                   1.567e+00  2.600e-01   6.025 1.69e-09 ***
+SPEED_ZONE080                                   1.786e+00  2.503e-01   7.135 9.70e-13 ***
+SPEED_ZONE090                                   1.999e+00  3.957e-01   5.052 4.38e-07 ***
+SPEED_ZONE100                                   2.758e+00  2.504e-01  11.015  < 2e-16 ***
+SPEED_ZONE110                                   3.071e+00  3.601e-01   8.529  < 2e-16 ***
+SURFACE_CONDOther                              -1.252e+00  3.452e-01  -3.626 0.000288 ***
+SURFACE_CONDWet                                -1.695e-01  1.468e-01  -1.154 0.248444    
+ATMOSPH_CONDFog                                -2.005e-01  3.364e-01  -0.596 0.551168    
+ATMOSPH_CONDOther                              -7.463e-01  2.175e-01  -3.431 0.000601 ***
+ATMOSPH_CONDRaining                            -2.874e-01  1.732e-01  -1.659 0.097051 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7609.4  on 5488  degrees of freedom
+Residual deviance: 5907.0  on 5447  degrees of freedom
+AIC: 5991
+
+Number of Fisher Scoring iterations: 5
+

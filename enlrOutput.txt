@@ -1,0 +1,51 @@
+49 x 1 sparse Matrix of class "dgCMatrix"
+                                                         s1
+(Intercept)                                    -0.638591499
+SEXM                                            0.488622271
+SEXU                                           -1.091795710
+AGE                                             0.102699404
+LICENCE_STATEVictoria                          -0.094134639
+HELMET_BELT_WORNSeatbelt not worn               1.800690649
+HELMET_BELT_WORNSeatbelt worn                   0.176662360
+VEHICLE_YEAR_MANUF                             -0.095766865
+VEHICLE_BODY_STYLEDC UTE                       -0.327909652
+VEHICLE_BODY_STYLEOther                         0.181531598
+VEHICLE_BODY_STYLEP MVR                         0.573539480
+VEHICLE_BODY_STYLES WAG                        -0.020478110
+VEHICLE_BODY_STYLESED                           0.120637013
+VEHICLE_BODY_STYLESEDAN                         0.021907440
+VEHICLE_BODY_STYLETRAY                         -0.147294159
+VEHICLE_BODY_STYLEUTIL                         -0.531131086
+VEHICLE_BODY_STYLEVAN                          -0.003260503
+VEHICLE_BODY_STYLEWAGON                        -0.055893579
+VEHICLE_MAKEHOLDEN                              0.328071945
+VEHICLE_MAKEHONDA                              -0.234350417
+VEHICLE_MAKEHYNDAI                              0.083416567
+VEHICLE_MAKEKENWTH                              0.996775720
+VEHICLE_MAKEMAZDA                              -0.088718663
+VEHICLE_MAKEMERC B                              0.008392562
+VEHICLE_MAKEMITSUB                              .          
+VEHICLE_MAKENISSAN                             -0.058563230
+VEHICLE_MAKEOther                               0.081289351
+VEHICLE_MAKESUBARU                             -0.207006118
+VEHICLE_MAKETOYOTA                              0.192073563
+VEHICLE_MAKEVOLKS                               0.043034911
+VEHICLE_TYPEHeavy Vehicle (Rigid) > 4.5 Tonnes  1.255013392
+VEHICLE_TYPEOther                               0.497117152
+VEHICLE_TYPEPanel Van                           0.249155557
+VEHICLE_TYPEPrime Mover - Single Trailer        0.707209614
+VEHICLE_TYPEStation Wagon                       0.163504682
+VEHICLE_TYPETaxi                               -0.395607277
+VEHICLE_TYPEUtility                             0.870541251
+FUEL_TYPEGas                                   -0.058349201
+FUEL_TYPEMulti                                 -0.019064061
+FUEL_TYPEOther                                  0.022543130
+FUEL_TYPEPetrol                                -0.152178118
+VEHICLE_COLOURBlue                             -0.025720332
+VEHICLE_COLOURGreen                             0.129530545
+VEHICLE_COLOURGrey                             -0.224284379
+VEHICLE_COLOUROther                             0.068281998
+VEHICLE_COLOURRed                               0.072447346
+VEHICLE_COLOURSilver                            0.002358258
+VEHICLE_COLOURWhite                             0.041392389
+TOTAL_NO_OCCUPANTS                              0.275910783
